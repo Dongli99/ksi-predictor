@@ -104,7 +104,7 @@ def lucky():
     index = random.randint(0, n_records - 1)
     print(
         f"Index: {index}, Actual Value: {y_test.iloc[index].values[0]}\
-              (If never modified.)"
+            (If never modified.)"
     )
     return render_form(index)
 
